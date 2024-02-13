@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Helvetica Neue Cyr Roman';
+    src: url('../fonts/HelveticaNeueCyr-Roman.eot');
+    src: url('../fonts/HelveticaNeueCyr-Roman.eot') format('embedded-opentype'),
+    url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+    url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Karusel (Карусель) Regular';
+    src: url('../fonts/Karusel.eot');
+    src: url('../fonts/Karusel.eot') format('embedded-opentype'),
+    url('../fonts/Karusel.woff') format('woff'),
+    url('../fonts/Karusel.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
