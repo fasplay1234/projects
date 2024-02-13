@@ -1,0 +1,217 @@
+* {
+    font-family: 'Roboto', sans-serif
+}
+
+header {
+    position: relative
+}
+
+nav {
+    height: 50px;
+    background-color: #212121
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px, 70px;
+    margin: 0
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #FFFFFF
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.50;
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF
+}
+
+.subheader .subheader_call {
+    margin-top: 23px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+    color: #FFFFFF
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: right;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 12px
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: uppercase
+}
+
+.promo {
+    height: 800px;
+    background: url("../img/mainscreen_bg.jpg") center center/cover no-repeat;
+    padding: 150px 0 135px 0
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0;
+    text-align: center
+}
+
+.promo .promo_subheader {
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center
+}
+
+.promo .rpomo_descr {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 24px
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    border: none;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: uppercase
+}
+
+.reasons {
+    padding: 71px 0 65px 0
+}
+
+.label {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.title {
+    margin-bottom: 0;
+    margin-top: 38px;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center
+}
+
+.subtitle {
+    margin-top: 19px;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #222222;
+    text-align: center
+}
+
+.reasons .reasons_block {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    align-items: center
+}
+
+.reasons .reasons_block .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%
+}
+
+.reasons .reasons_block .reasons_descr {
+    width: 343px
+}
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #1eacc7
+}
+
+.reasons .reasons_block .reasons_descr .reasons_text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #202020;
+    line-height: 21px
+}
+
+.mobile {
+    min-height: 864px;
+    padding: 48 0 79 0;
+    background: url("../img/thirdscreen_bg.jpg") center center/cover no-repeat;
+    width: 320px;
+    height: 280px;
+    margin: 0 auto
+}
